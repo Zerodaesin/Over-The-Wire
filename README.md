@@ -12,6 +12,6 @@ Now that you are logged in, the instructions state "The password for the next le
 
 ![image](https://user-images.githubusercontent.com/113439757/192812957-bc034ea8-086b-4817-addd-fa91b2f5b940.png)
 
-Are there other ways to arrive at our answer? Absolutely! The one above is probably the most beginner friendly, but if you know already how to tie commands together with the pipe symbol "|" then you could also do something like "find * | cat *" to arrive at the same answer
+Are there other ways to arrive at our answer? Absolutely! The one above is probably the most beginner friendly, but if you know already how to tie commands together with the pipe symbol "|" then you could also do something like "find * | cat * " to arrive at the same answer.  The same would apply to "du * " or "file -f readme".  Learning multiple ways to perform a task is critical to 
 
 Use the same method to log into level 1 as you did level 0.
