@@ -19,8 +19,13 @@ Use the same method to log into level 1 as you did level 0. The directions are "
 ![image](https://user-images.githubusercontent.com/113439757/193274366-18c43089-bb3a-4081-94dd-cae71836de53.png)
 
 # Level 2 > 3
-The level goal is "The password for the next level is stored in a file called spaces in this filename located in the home directory" so we login and see we are in the home directory to start.  If we try to `cat spaces in this filename` the terminal tries to cat each word as a file name instead of as one.  Whereas in the previous level we wanted to seperate a filename from something, this time we want to include something(whitespace) with the filename.  To do that we use single quotes, both on linux and windows, to denote that it is a string. 
+The level instructions state "The password for the next level is stored in a file called spaces in this filename located in the home directory" so we login and see we are in the home directory to start.  If we try to `cat spaces in this filename` the terminal tries to cat each word as a file name instead of as one.  Whereas in the previous level we wanted to seperate a filename from something, this time we want to include something(whitespace) with the filename.  To do that we use single quotes, both on linux and windows, to denote that it is a string. 
 ![image](https://user-images.githubusercontent.com/113439757/193277126-c220ae18-cc27-49f6-b800-ba65cbba3dac.png)
 
 # Level 3 > 4
+The level instructions state "The password for the next level is stored in a hidden file in the inhere directory".  We follow our method until we get inside the inhere directory.  We can type `ls` but nothing comes up because the file is hidden.  There are several ways to find this hidden file, the most straightforward being to look at the `man ls` page and see that the option `-a` does not ignore entries starting with `.`. 
+![image](https://user-images.githubusercontent.com/113439757/193285278-bba90cb4-5c08-4997-9e82-d7554c964b29.png)
+Personally I prefer `ls -la` because it also shows file permissions and ownership and just looks cleaner.  As a side note, you can also write it `ls -al` which threw me for such a loop the first time I saw it I actually thought it was a different command than `ls -la`. I challenge you to find at least 4 ways to discover this file using the helpful commands section of the instructions page!
+
+# Level 4 > 5
 
