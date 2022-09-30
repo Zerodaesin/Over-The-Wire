@@ -29,7 +29,13 @@ The level instructions state "The password for the next level is stored in a hid
 Personally I prefer `ls -la` because it also shows file permissions and ownership and just looks cleaner.  As a side note, you can also write it `ls -al` which threw me for such a loop the first time I saw it I actually thought it was a different command than `ls -la`. I challenge you to find at least 4 ways to discover this file using the helpful commands section of the instructions page!
 
 # Level 4 > 5
-The level instructions state "The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the \u201creset\u201d command."  After going into the folder we see a number of files that if we `cat` to the terminal give us gibberish.  we could do this for each one and find the only one we can read.  My dad used to always say that it's not stupid if it works.  But we are here to sharpen our skills and learn something new that the previous lesson did not offer! The simpliest way to do that would be to use the `file` command to output each file's type as shown in the man page. To do that we type `file ./*`.  The * is a wildcard that runs the command on every file in the directory.
+The level instructions state "The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the \u201creset\u201d command."  After going into the folder we see a number of files that if we `cat` to the terminal give us gibberish.  we could do this for each one and find the only one we can read.  My dad used to always say that it's not stupid if it works.  But we are here to sharpen our skills and learn something new that the previous lesson did not offer! The simpliest way to do that would be to use the `file` command to output each file's type as shown in the `man` page. To do that we type `file ./*`.  The * is a wildcard that runs the command on every file in the directory.  The only one we can read is ascii.
+
 ![image](https://user-images.githubusercontent.com/113439757/193299869-516e6665-5eec-4851-897a-051183c6f8ad.png)
+
+I looked at a few other walkthroughs trying to find alternate solutions beyond this one but the find related one is the only one listed in the first dozen or so results from google.  There was a find based loop but I was looking specifically for ways to avoid the find command and still efficiently print the results without having to check each file individually.  If you use the strings command as so `strings ./*` it will give you the flag without having to even use the cat command.  I recognize that it is beyond the scope of the exercise
+
+![image](https://user-images.githubusercontent.com/113439757/193302217-24b0071b-b750-48b7-9760-6573ca851476.png)
+
 
 
