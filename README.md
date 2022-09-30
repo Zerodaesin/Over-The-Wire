@@ -25,6 +25,7 @@ The level instructions state "The password for the next level is stored in a fil
 # Level 3 > 4
 The level instructions state "The password for the next level is stored in a hidden file in the inhere directory".  We follow our method until we get inside the inhere directory.  We can type `ls` but nothing comes up because the file is hidden.  There are several ways to find this hidden file, the most straightforward being to look at the `man ls` page and see that the option `-a` does not ignore entries starting with `.`. 
 ![image](https://user-images.githubusercontent.com/113439757/193285278-bba90cb4-5c08-4997-9e82-d7554c964b29.png)
+
 Personally I prefer `ls -la` because it also shows file permissions and ownership and just looks cleaner.  As a side note, you can also write it `ls -al` which threw me for such a loop the first time I saw it I actually thought it was a different command than `ls -la`. I challenge you to find at least 4 ways to discover this file using the helpful commands section of the instructions page!
 
 # Level 4 > 5
