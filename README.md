@@ -33,7 +33,7 @@ The level instructions state "The password for the next level is stored in the o
 
 ![image](https://user-images.githubusercontent.com/113439757/193299869-516e6665-5eec-4851-897a-051183c6f8ad.png)
 
-I looked at a few other walkthroughs trying to find alternate solutions beyond this one but the find related one is the only one listed in the first dozen or so results from google.  There was a find based loop but I was looking specifically for ways to avoid the find command and still efficiently print the results without having to check each file individually.  If you use the strings command as so `strings ./*` it will give you the flag without having to even use the cat command.  I recognize that it is beyond the scope of the helpful commands in the exercise, but if there are others you know of please reach out to me, I'd love to see what you come up with.
+I looked at a few other walkthroughs trying to find alternate solutions beyond this one but the find related one is the only one listed pretty much everywhere except one.  There was a find based loop but I was looking specifically for ways to avoid the find command and still efficiently print the results without having to check each file individually.  If you use the strings command as so `strings ./*` it will give you the flag without having to even use the cat command.  I recognize that it is beyond the scope of the helpful commands in the exercise, but if there are others you know of please reach out to me, I'd love to see what you come up with.
 
 ![image](https://user-images.githubusercontent.com/113439757/193302217-24b0071b-b750-48b7-9760-6573ca851476.png)
 
