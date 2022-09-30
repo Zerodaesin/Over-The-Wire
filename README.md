@@ -29,4 +29,7 @@ The level instructions state "The password for the next level is stored in a hid
 Personally I prefer `ls -la` because it also shows file permissions and ownership and just looks cleaner.  As a side note, you can also write it `ls -al` which threw me for such a loop the first time I saw it I actually thought it was a different command than `ls -la`. I challenge you to find at least 4 ways to discover this file using the helpful commands section of the instructions page!
 
 # Level 4 > 5
+The level instructions state "The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the \u201creset\u201d command."  After going into the folder we see a number of files that if we `cat` to the terminal give us gibberish.  we could do this for each one and find the only one we can read.  My dad used to always say that it's not stupid if it works.  But we are here to sharpen our skills and learn something new that the previous lesson did not offer! The simpliest way to do that would be to use the `file` command to output each file's type as shown in the man page. To do that we type `file ./*`.  The * is a wildcard that runs the command on every file in the directory.
+![image](https://user-images.githubusercontent.com/113439757/193299869-516e6665-5eec-4851-897a-051183c6f8ad.png)
+
 
