@@ -39,4 +39,4 @@ I looked at a few other walkthroughs trying to find alternate solutions beyond t
 
 
 # Level 5 > 6
-
+The level goal states: The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:human-readable, 1033 bytes in size, and not executable.
