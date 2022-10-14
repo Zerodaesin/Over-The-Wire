@@ -41,3 +41,6 @@ I looked at a few other walkthroughs trying to find alternate solutions beyond t
 # Level 5 > 6
 The level goal states: The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:human-readable, 1033 bytes in size, and not executable.  We could use the `file` command as in the last exercise to locate the human readable file but lets go another route. We haven't really explored the `find` command yet and this is a reasonable way to search data. A look through our manual yields the proper arguments to add `-type f -size 1033c` based on the level goals information.
 ![image](https://user-images.githubusercontent.com/113439757/195918536-9e09ed92-e9a3-48a4-bb3d-2557b4adfa1a.png)
+
+# Level 6 > 7
+The password for the next level is stored somewhere on the server and has all of the following properties:owned by user bandit7, owned by group bandit6, and 33 bytes in size.
