@@ -43,4 +43,6 @@ The level goal states: The password for the next level is stored in a file somew
 ![image](https://user-images.githubusercontent.com/113439757/195918536-9e09ed92-e9a3-48a4-bb3d-2557b4adfa1a.png)
 
 # Level 6 > 7
-The password for the next level is stored somewhere on the server and has all of the following properties:owned by user bandit7, owned by group bandit6, and 33 bytes in size.  Breaking this exercise down, we have two parts to accomplish our goal:we must FIND the flag, and we must READ the flag.  The easiest way to get the flag is using the `find` command here.  I've been on a quest to include the helpful commands grep since it seems rather out of place in this exercise.  It would be highly useful if we knew the flag's contents or name to retrieve the contents of the file.
+The password for the next level is stored somewhere on the server and has all of the following properties:owned by user bandit7, owned by group bandit6, and 33 bytes in size.  Breaking this exercise down, we have two parts to accomplish our goal:we must FIND the flag, and we must READ the flag.  The easiest way to get the flag is using the `find` command here.  I've been on a quest to include the helpful commands grep since it seems rather out of place in this exercise
+
+# Level 7 > 8
