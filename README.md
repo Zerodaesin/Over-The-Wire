@@ -44,6 +44,7 @@ The level goal states: The password for the next level is stored in a file somew
 
 # Level 6 > 7
 The password for the next level is stored somewhere on the server and has all of the following properties:owned by user bandit7, owned by group bandit6, and 33 bytes in size.  Breaking this exercise down, we have two parts to accomplish our goal:we must FIND the flag, and we must READ the flag.  The easiest way to get the flag is using the `find` command here.  I've been on a quest to include the helpful commands grep since I believe it's rather out of place in this exercise.  I think that because without a `*` operator, there's no way to use `grep` for this problem that I can find.  Grep requires you to already have certain information.  I tried loading a variable `n=bandit7` and grepping for the owner that way, then loading the *many* results into a text file and grepping for the answer there. Admittedly I used the method from level 5 > 6 to locate the correct directory just to see if I could grep my way to it but as of yet no luck. You may notice in my answer here I have `2>/dev/null` at the end.  This essentially dumps error messages instead of printing them to the terminal and makes everything cleaner looking.  I'll talk about this more later.
+
 ![image](https://user-images.githubusercontent.com/113439757/197827339-dfab789d-9810-4cad-91d3-7a5640f4d886.png)
 
 # Level 7 > 8
@@ -51,7 +52,7 @@ The password for the next level is stored somewhere on the server and has all of
 ![image](https://user-images.githubusercontent.com/113439757/197595900-a8bdda50-3492-4653-9a10-f7713b43d37c.png)
 
 # Level 8 > 9
-"The password for the next level is stored in the file data.txt and is the only line of text that occurs only once" `Sort` and `Uniq` are your friend here.  Ultimately we want to break the problem down into steps so that pipes can more effectively help us.  We need to organize, then reduce, then read the data to find our answer.  The inclusion of the archive and compression commands in the helpful commands section is to highlight the fact that they can be piped into other commands. One example being `tar -O`
+"The password for the next level is stored in the file data.txt and is the only line of text that occurs only once" Remeber `2>/dev/null`? The supplemental reading here goes into greater detail about how it works and what is happening behind the scenes.  I highly recommend it. `Sort` and `Uniq` are your friend in this exercise.  Ultimately we want to break the problem down into steps so that pipes can more effectively help us.  We need to organize, then reduce, then read the data to find our answer.  The inclusion of the archive and compression commands in the helpful commands section is to highlight the fact that they can be piped into other commands. 
 
 ![image](https://user-images.githubusercontent.com/113439757/197828564-16ba2553-227a-4d3f-acb3-bc48b3f1e78a.png)
 
