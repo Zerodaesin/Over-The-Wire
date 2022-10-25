@@ -51,7 +51,8 @@ The password for the next level is stored somewhere on the server and has all of
 ![image](https://user-images.githubusercontent.com/113439757/197595900-a8bdda50-3492-4653-9a10-f7713b43d37c.png)
 
 # Level 8 > 9
-"The password for the next level is stored in the file data.txt and is the only line of text that occurs only once" `Sort` and `Uniq` are your friend here.  Ultimately we want to break the problem down into steps so that pipes can more effectively help us.  We need to organize, then reduce, then read the data to find our answer.
+"The password for the next level is stored in the file data.txt and is the only line of text that occurs only once" `Sort` and `Uniq` are your friend here.  Ultimately we want to break the problem down into steps so that pipes can more effectively help us.  We need to organize, then reduce, then read the data to find our answer.  The inclusion of the archive and compression commands in the helpful commands section is to highlight the fact that they can be piped into other commands. One example being `tar -O`
+
 ![image](https://user-images.githubusercontent.com/113439757/197828564-16ba2553-227a-4d3f-acb3-bc48b3f1e78a.png)
 
 # 9 > 10
