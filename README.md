@@ -49,3 +49,5 @@ The password for the next level is stored somewhere on the server and has all of
 "The password for the next level is stored in the file data.txt next to the word millionth" The useful commands are `man, grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd`. This is a fine place to employ grep if you are looking for the easiest route through the levels. 
 ![image](https://user-images.githubusercontent.com/113439757/197595900-a8bdda50-3492-4653-9a10-f7713b43d37c.png)
 
+# Level 8 > 9
+"The password for the next level is stored in the file data.txt and is the only line of text that occurs only once" Uniq is your friend here.
