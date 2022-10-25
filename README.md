@@ -58,4 +58,5 @@ The password for the next level is stored somewhere on the server and has all of
 
 # 9 > 10
 "The password for the next level is stored in the file data.txt in one of the few human-readable strings, preceded by several ‘=’ characters."  We have an answer inside the prompt with the use of `strings`. We can leverage what we've already learned about the passwords presented so far in that they are 32 characters in length to craft the right command for the job.
+
 ![image](https://user-images.githubusercontent.com/113439757/197850603-28c5eaa0-43f5-41c6-b059-ec7688ea660f.png)
